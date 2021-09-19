@@ -1,0 +1,28 @@
+{
+  "name": "postgresqlandgraphqltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimjiwonpg98/postgresqlAndgraphqlTEST.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimjiwonpg98/postgresqlAndgraphqlTEST/issues"
+  },
+  "homepage": "https://github.com/kimjiwonpg98/postgresqlAndgraphqlTEST#readme",
+  "dependencies": {
+    "@graphile-contrib/pg-simplify-inflector": "^6.1.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphile-build": "^4.12.0",
+    "pg": "^8.7.1",
+    "postgraphile": "^4.12.3"
+  }
+}
